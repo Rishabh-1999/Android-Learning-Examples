@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Application_1</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sacitizen">SA Citizen</string>
+    <string name="permanenttcitizen">Permanent Citizen</string>
+    <string name="hint_1">Enter No</string>
+    <string name="btn_1">Button</string>
+    <string name="tv_1">TextView</string>
+</resources>
