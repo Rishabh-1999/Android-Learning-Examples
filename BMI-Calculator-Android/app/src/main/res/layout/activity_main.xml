@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="150dp"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/weightques"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/weight_in_kg"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/enter_your_height"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:gravity="center"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/weight_in_cm"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/submit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/value"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/suggestion"/>
+
+    </LinearLayout>
+
+</LinearLayout>

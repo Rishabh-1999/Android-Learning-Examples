@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BMI_Calculator_Android</string>
+    <string name="heading">BMI Calculator</string>
+    <string name="weightques">Enter Your Weight</string>
+    <string name="weight_in_kg">Weight in (Kg)</string>
+    <string name="enter_your_height">Enter Your Height</string>
+    <string name="weight_in_cm">Weight in (Cm)</string>
+</resources>
