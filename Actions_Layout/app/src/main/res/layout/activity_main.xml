@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/etNo"
+    android:hint="Enter phone no."
+    android:textColor="@android:color/holo_blue_light"
+    android:inputType="phone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnCall"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Call"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnCamera"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Camera"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnContact"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Contact"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnBrowser"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Browser"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnCallLog"
+        android:text="Call Log"
+        android:textColor="@android:color/holo_orange_light"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnGallery"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="Gallery" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btnDial"
+        android:text="Dialpad"
+        android:textColor="@android:color/holo_orange_light"/>
+</LinearLayout>
