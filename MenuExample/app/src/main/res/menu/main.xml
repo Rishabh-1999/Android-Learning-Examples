@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        android:icon="@drawable/refresh"
+        />
+
+    <item android:id="@+id/download"
+        android:title="Download"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:icon="@drawable/download"
+        />
+
+    <item android:id="@+id/send"
+        android:title="Send"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_send_black_24dp"
+        />
+
+</menu>
