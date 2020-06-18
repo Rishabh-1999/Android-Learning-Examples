@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="actionModeCloseButtonStyle">@style/NoCloseButtonActionModeStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionMode" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="NoCloseButtonActionModeStyle">
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BalanceViewer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etAdd">"Enter Person Name</string>
+    <string name="addPerson">Add Person</string>
+    <string name="etUpdate">Enter Updated amount</string>
+    <string name="etAmt">Update Amount</string>
+    <string name="tvName">Name   : </string>
+    <string name="tvBalance">Balance : </string>
+    <string name="person">Person</string>
+    <string name="fingerprint_text">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="fingerprint_desc">FingerPrint Photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="name">Name</string>
+    <string name="name_of_person">Name of Person</string>
+    <string name="photo_of_person">Photo of person</string>
+    <string name="dustbin_icon">dustbin_icon</string>
+</resources>
