@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120099616330",
+    "firebase_url": "https://uber-clone-firebase-8bcbc.firebaseio.com",
+    "project_id": "uber-clone-firebase-8bcbc",
+    "storage_bucket": "uber-clone-firebase-8bcbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120099616330:android:e4d6fcd5b9d5e924",
+        "android_client_info": {
+          "package_name": "com.rishabhanand.multichoices_quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120099616330-67qt7pebrd5vbkg3o0a0egnn0ggn8183.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rishabhanand.multichoices_quiz_app",
+            "certificate_hash": "8b98b8ba3e5cc21647005b347b4e0a306f804f6a"
+          }
+        },
+        {
+          "client_id": "120099616330-tq5mimt2par945uh4fp0evhj3pk1j883.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBJQaprNJRZGEjxXCRU8WOrc5BItFKkQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120099616330-tq5mimt2par945uh4fp0evhj3pk1j883.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
